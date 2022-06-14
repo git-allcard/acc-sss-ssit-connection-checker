@@ -1,0 +1,111 @@
+The connection has been disabled.,2/10/2015 1:59:35 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:37 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:39 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:40 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:40 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:40 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:40 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:44 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:44 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:44 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:48 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:48 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:48 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:48 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:48 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:48 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:48 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:48 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:49 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:49 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:49 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:53 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:53 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:57 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:57 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:57 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:58 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 1:59:59 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:00 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:01 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:02 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:03 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:04 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:05 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:06 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:08 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:09 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:10 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:11 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:12 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:13 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:14 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:15 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:16 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:17 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:18 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:19 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:20 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:21 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:22 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:23 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:24 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:25 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:26 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:27 PM
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.
+ERROR [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "SSIT_SERVER" requested by the login. The login failed.,2/10/2015 2:00:28 PM

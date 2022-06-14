@@ -1,0 +1,8 @@
+ERROR [42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'SSTEST'.,2/9/2015 3:51:18 PM
+ERROR [42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'SSTEST'.,2/9/2015 3:51:18 PM
+ERROR [42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'SSTEST'.,2/9/2015 3:51:18 PM
+ERROR [42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'SSTEST'.,2/9/2015 3:51:18 PM
+ERROR [42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'SSTEST'.,2/9/2015 3:51:18 PM
+ERROR [42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'SSTEST'.,2/9/2015 3:51:18 PM
+ERROR [42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'SSTEST'.,2/9/2015 3:51:19 PM
+ERROR [42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'SSTEST'.,2/9/2015 3:51:19 PM

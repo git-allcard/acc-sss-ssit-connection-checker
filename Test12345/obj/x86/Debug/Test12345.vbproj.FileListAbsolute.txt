@@ -1,0 +1,26 @@
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\bin\Debug\Test12345.exe.config
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\bin\Debug\Test12345.exe
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\bin\Debug\Test12345.pdb
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\bin\Debug\Test12345.xml
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\Test12345.Form1.resources
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\Test12345.Resources.resources
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\ResGen.read.1.tlog
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\ResGen.write.1.tlog
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\Test12345.exe
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\Test12345.xml
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\Test12345.pdb
+c:\users\oracle\documents\visual studio 2010\Projects\Test12345\Test12345\obj\x86\Debug\Test12345._frmSettings.resources
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\bin\Debug\Test12345.exe.config
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\bin\Debug\Test12345.exe
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\bin\Debug\Test12345.pdb
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\bin\Debug\Test12345.xml
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\Test12345.Form1.resources
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\Test12345.Resources.resources
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\Test12345._frmSettings.resources
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\Test12345.exe
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\Test12345.xml
+C:\Users\Oracle\Desktop\MY BURARA\05-14-2014\Test12345\Test12345\obj\x86\Debug\Test12345.pdb
