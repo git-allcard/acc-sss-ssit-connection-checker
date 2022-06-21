@@ -8,22 +8,22 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3466565C-368F-47DC-A862-75D43A1045DB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>SSIT_Checker.My.MyApplication</StartupObject>
-    <RootNamespace>SSIT_Checker</RootNamespace>
-    <AssemblyName>SSIT_Checker</AssemblyName>
+    <StartupObject>SSIT_CHECKER.My.MyApplication</StartupObject>
+    <RootNamespace>SSIT_CHECKER</RootNamespace>
+    <AssemblyName>SET Kiosk Network Checker</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>SSIT_Checker.xml</DocumentationFile>
+    <DocumentationFile>SET Kiosk Network Checker.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -34,7 +34,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>SSIT_Checker.xml</DocumentationFile>
+    <DocumentationFile>SET Kiosk Network Checker.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -51,9 +51,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+    <Reference Include="DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+      <HintPath>bin\Debug\DAL.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
@@ -82,7 +82,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="config.vb" />
-    <Compile Include="ConnectionString.vb" />
+    <Compile Include="frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localDAL.vb" />
+    <Compile Include="Log.vb" />
     <Compile Include="SSIT_Checker.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -106,14 +113,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="_frmSettings.Designer.vb">
-      <DependentUpon>_frmSettings.vb</DependentUpon>
-    </Compile>
-    <Compile Include="_frmSettings.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Utilities.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SSIT_Checker.resx">
       <DependentUpon>SSIT_Checker.vb</DependentUpon>
     </EmbeddedResource>
@@ -122,9 +127,6 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_frmSettings.resx">
-      <DependentUpon>_frmSettings.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

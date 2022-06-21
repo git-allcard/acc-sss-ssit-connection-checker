@@ -5,19 +5,18 @@ Public Class SSIT_Checker
     Dim trd As Thread
 
     Public config As New config
-    Public configFile As String = Application.StartupPath & "\config"
 
-    Protected Overrides Sub OnFormClosing(ByVal e As FormClosingEventArgs)
-        MyBase.OnFormClosing(e)
-        If Not e.Cancel AndAlso e.CloseReason = CloseReason.UserClosing Then
-            Me.WindowState = FormWindowState.Minimized
-        End If
+    'Protected Overrides Sub OnFormClosing(ByVal e As FormClosingEventArgs)
+    '    MyBase.OnFormClosing(e)
+    '    If Not e.Cancel AndAlso e.CloseReason = CloseReason.UserClosing Then
+    '        Me.WindowState = FormWindowState.Minimized
+    '    End If
 
-    End Sub
+    'End Sub
 
-    Private Sub LoadConfig()
-        If System.IO.File.Exists(configFile) Then
-            config = Newtonsoft.Json.JsonConvert.DeserializeObject(Of config)(System.IO.File.ReadAllText(configFile))
+    Private Sub Init()
+        If System.IO.File.Exists(Utilities.configFile) Then
+            config = Newtonsoft.Json.JsonConvert.DeserializeObject(Of config)(System.IO.File.ReadAllText(Utilities.configFile))
             My.Settings.db_DSN = config.DSN
             My.Settings.db_Server = config.Server
             My.Settings.DB_Name = config.Database
@@ -25,93 +24,103 @@ Public Class SSIT_Checker
             My.Settings.db_Pass = config.Password
             My.Settings.Save()
             My.Settings.Reload()
+
+            Dim logFolder As String = String.Concat(Application.StartupPath, "\Log")
+            If Not System.IO.Directory.Exists(logFolder) Then System.IO.Directory.CreateDirectory(logFolder)
         Else
+            Log.SaveErrorLog("Unable to find config file. Application will be closed.")
             MessageBox.Show("Unable to find config file. Application will be closed.", Me.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Environment.Exit(0)
         End If
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        LoadConfig()
+        Log.SaveSystemLog("Application started")
+        Label3.Text = String.Concat("V", FileVersionInfo.GetVersionInfo(Application.ExecutablePath).FileVersion)
+
+        Init()
 
         If My.Settings.firstRun = 0 Then
-            _frmSettings.ShowDialog()
+            frmSettings.ShowDialog()
         Else
-            'GC.Collect()
+            Utilities.reportDate = Today
+            'Utilities.reportDate = Convert.ToDateTime("2022-04-22")
+            Utilities.ConStr = "SERVER=" & config.Server & ";DATABASE=" & config.Database & ";UID=" & config.User & ";PWD=" & config.Password & ""
+
             Control.CheckForIllegalCrossThreadCalls = False
             trd = New Thread(AddressOf ThreadTask)
             trd.IsBackground = True
             trd.Start()
         End If
-
     End Sub
+
+    Private Sub SSIT_Checker_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        Log.SaveSystemLog("Application closed")
+    End Sub
+
+    Private Sub LabelStatus(ByVal desc As String)
+        lblStatus.BeginInvoke(Sub() Me.lblStatus.Text = desc)
+        Application.DoEvents()
+    End Sub
+
     Public Sub runTime()
-
-        Dim ip As String = ""
-        Dim db As New ConnectionString
         Dim lvPc As New ListView
-        Dim getdate As String = Date.Today.ToShortDateString
-        getdate = getdate.Replace("/", "-")
-        Dim myPath As String = Application.StartupPath & "\LOGS"
-        If (Not System.IO.Directory.Exists(myPath)) Then
-            System.IO.Directory.CreateDirectory(myPath)
-        End If
+        Dim localDAL As New localDAL
         Try
-            GC.Collect()
-            db.FillListView(db.ExecuteSQLQuery("SELECT KIOSK_NM as'Host Name',STATUS,BRANCH_IP as 'IP ADDRESS',BRANCH_CD as 'Branch Code',CLSTR,DIVSN FROM SSINFOTERMKIOSK where TAG = '1' and isVPN = 'false'"), lvPc)
-            For Each lvi As ListViewItem In lvPc.Items
-                lvi.UseItemStyleForSubItems = False
-                ip = lvi.SubItems(2).Text
-                If PING_SSS_IP(ip) Then
-                    'db.ExecuteSQLQuery("Update SSINFOTERMKIOSK set STATUS = 'true' where BRANCH_IP='" & ip & "'")
-                    If db.checkExistence("SELECT BRANCH_IP FROM SSMONITORING WHERE STATUS ='true' and BRANCH_IP = '" & ip & "' and cast(datestamp as date) = '" & Today & "'") Then
-                        Dim timeStamp As String = db.putSingleValue("Select max(DATESTAMP) from SSMONITORING where BRANCH_IP = '" & ip & "'")
-                        db.ExecuteSQLQuery("UPDATE SSMONITORING SET ONLINE_DT = '" & DateAndTime.Now & "',STATUS = 'false' where BRANCH_IP = '" & ip & "' and datestamp = '" & timeStamp & "'")
+            'GC.Collect()
+            Dim intCntr As Integer = 1
+
+            LabelStatus("Extracting kiosks with IP...")
+
+            Dim dtKiosk As DataTable = localDAL.GetKioskListWithIPandNotVPN
+            If Not dtKiosk Is Nothing Then
+                Utilities.FillListView(dtKiosk, lvPc)
+
+                For Each lvi As ListViewItem In lvPc.Items
+                    lvi.UseItemStyleForSubItems = False
+                    Dim ip As String = lvi.SubItems(2).Text
+
+                    LabelStatus(String.Format("Pinging {0}... {1} of {2}", ip, intCntr, dtKiosk.DefaultView.Count))
+
+                    '0=existing, 1=not existing, -1=error
+                    Dim intKioskExist = localDAL.IsKioskExistInSSMonitoring(ip)
+                    Dim pingResult As String = ""
+
+                    If PING_SSS_IP(ip) Then
+                        If intKioskExist = 0 Then
+                            localDAL.UpdateSSMonitoringOnlineDate(ip)
+                            pingResult = "Success ping,Updated existing offline record"
+                        Else
+                            pingResult = "Success ping,No offline record"
+                        End If
+
                     Else
-                        ' db.ExecuteSQLQuery("UPDATE SSINFOTERMKIOSK SET LONLINE_DT = '" & DateAndTime.Now & "' where BRANCH_IP = '" & ip & "'")
-                        ' db.ExecuteSQLQuery("UPDATE SSMONITORING SET STATUS = 'false' where BRANCH_IP = '" & ip & "'")
+                        If intKioskExist = 1 Then
+                            localDAL.InsertSSMonitoring(ip, lvi.SubItems(3).Text, lvi.SubItems(4).Text, lvi.SubItems(5).Text)
+                            pingResult = "Failed ping,Inserted new offline record"
+                        Else
+                            pingResult = "Failed ping,With existing offline record"
+                        End If
                     End If
-                Else
-                    'db.ExecuteSQLQuery("Update  SSINFOTERMKIOSK set STATUS = 'false' where BRANCH_IP='" & ip & "'")
-                    'SELECT IP WITH STATUS = TRUE, IF FOUND, UPDATE ROW. IF NOT INSERT
-                    If db.checkExistence("SELECT BRANCH_IP FROM SSMONITORING WHERE STATUS ='true' and BRANCH_IP = '" & ip & "' and cast(datestamp as date) = '" & Today & "'") Then
-                        'db.ExecuteSQLQuery("UPDATE SSMONITORING SET STATUS = 'false', ONLINE_DT = '" & DateAndTime.Now & "' where BRANCH_IP = '" & ip & "'")
-                        'db.ExecuteSQLQuery("UPDATE SSMONITORING SET STATUS = 'true' where BRANCH_IP = '" & ip & "'")
-                    Else
-                        db.ExecuteSQLQuery("INSERT INTO SSMONITORING(BRANCH_IP,BRANCH_CD,CLSTR,DIVSN,OFFLINE_DT,DATESTAMP,STATUS) values ('" & lvi.SubItems(2).Text & "','" & lvi.SubItems(3).Text & "','" & lvi.SubItems(4).Text & "','" & lvi.SubItems(5).Text & "','" & DateAndTime.Now & "','" & DateAndTime.Now & "','true')")
-                        'db.ExecuteSQLQuery("UPDATE SSMONITORING SET STATUS = 'true' where BRANCH_IP = '" & ip & "'")
-                    End If
-                End If
 
+                    Dim Result As String = lvi.SubItems(1).Text
+                    Select Case Result
+                        Case "True"
+                            Log.SaveConnectionStatusLog(ip & "," & "OFFLINE," & pingResult)
+                        Case "False"
+                            Log.SaveConnectionStatusLog(ip & "," & "ONLINE," & pingResult)
+                    End Select
 
-                Dim SW As New IO.StreamWriter(myPath & "\" & "CONNECTION STATUS" & "," & getdate & ".txt", True)
-                Dim Result As String = lvi.SubItems(1).Text
-                Select Case Result
-                    Case "True"
-                        SW.WriteLine(ip & "," & "ONLINE" & "," & DateAndTime.Now)
-                    Case "False"
-                        SW.WriteLine(ip & "," & "OFFLINE" & "," & DateAndTime.Now)
-                End Select
-
-                SW.Close()
-                SW.Dispose()
-                SW = Nothing
-
-                ip = ""
-            Next
-
+                    intCntr += 1
+                Next
+            Else
+                Log.SaveErrorLog(String.Concat("runtime(): ", "dtKiosk is nothing"))
+            End If
         Catch ex As Exception
-            Dim errorLogs As String = ex.Message
-            errorLogs = errorLogs.Trim
-            Dim SW As New IO.StreamWriter(myPath & "\" & "ERROR LOGS" & getdate & ".txt", True)
-            SW.WriteLine(ip & ": " & errorLogs & "," & DateAndTime.Now)
-            SW.Close()
-            SW.Dispose()
-            SW = Nothing
+            Log.SaveErrorLog(String.Concat("runtime(): ", ex.Message))
         Finally
-            db = Nothing
+            localDAL.Dispose()
             lvPc = Nothing
-
         End Try
     End Sub
 
@@ -129,25 +138,32 @@ Public Class SSIT_Checker
                 Return True
             End If
         Next
+
+        Return False
     End Function
 
 
     Private IsProcessing As Boolean = False
 
     Private Sub ThreadTask()
-        Do While True
-            If Not IsProcessing Then
-                IsProcessing = True
-                Try
-                    runTime()
-                    System.Threading.Thread.Sleep(1000)
-                Catch ex As Exception
-                    'MsgBox("Connection Time-out")
-                End Try
+        'Do While True
+        '    If Not IsProcessing Then
+        '        IsProcessing = True
+        '        Try
+        '            runTime()
+        '            System.Threading.Thread.Sleep(1000)
+        '        Catch ex As Exception
+        '            'MsgBox("Connection Time-out")
+        '        End Try
 
-                IsProcessing = False
-            End If
-        Loop
+        '        IsProcessing = False
+        '    End If
+        'Loop
+
+        runTime()
+        LabelStatus("Closing application...")
+        Environment.Exit(0)
     End Sub
+
 End Class
 

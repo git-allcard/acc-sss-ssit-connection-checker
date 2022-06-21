@@ -26,15 +26,16 @@ Partial Class SSIT_Checker
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.lblStatus = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(68, 37)
+        Me.Label3.Location = New System.Drawing.Point(79, 37)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 13)
+        Me.Label3.Size = New System.Drawing.Size(71, 13)
         Me.Label3.TabIndex = 15
         Me.Label3.Text = "Version 1.0"
         '
@@ -42,44 +43,55 @@ Partial Class SSIT_Checker
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(68, 25)
+        Me.Label2.Location = New System.Drawing.Point(79, 25)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(131, 13)
+        Me.Label2.Size = New System.Drawing.Size(149, 13)
         Me.Label2.TabIndex = 14
-        Me.Label2.Text = "SSIT Connection Checker"
+        Me.Label2.Text = "SET Connection Checker"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(68, 12)
+        Me.Label1.Location = New System.Drawing.Point(79, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 13)
+        Me.Label1.Size = New System.Drawing.Size(139, 13)
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "Social Security System"
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.SSIT_Checker.My.Resources.Resources.logo
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Image = Global.SSIT_CHECKER.My.Resources.Resources.logo
+        Me.PictureBox1.Location = New System.Drawing.Point(14, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(50, 38)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 12
         Me.PictureBox1.TabStop = False
         '
+        'lblStatus
+        '
+        Me.lblStatus.AutoSize = True
+        Me.lblStatus.Location = New System.Drawing.Point(12, 58)
+        Me.lblStatus.Name = "lblStatus"
+        Me.lblStatus.Size = New System.Drawing.Size(43, 13)
+        Me.lblStatus.TabIndex = 16
+        Me.lblStatus.Text = "Ready"
+        '
         'SSIT_Checker
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(200, 61)
+        Me.ClientSize = New System.Drawing.Size(263, 80)
+        Me.Controls.Add(Me.lblStatus)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "SSIT_Checker"
-        Me.Text = "SSIT"
+        Me.Text = "SET"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -89,5 +101,5 @@ Partial Class SSIT_Checker
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-
+    Friend WithEvents lblStatus As Label
 End Class

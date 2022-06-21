@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Test12345")> 
+<Assembly: AssemblyTitle("SET Kiosk Network Checker")>
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Microsoft")> 
-<Assembly: AssemblyProduct("Test12345")> 
+<Assembly: AssemblyCompany("Microsoft")>
+<Assembly: AssemblyProduct("SET Kiosk Network Checker")>
 <Assembly: AssemblyCopyright("Copyright © Microsoft 2014")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("db86c177-2e77-43b6-86d4-9d647e4be3fc")> 
+<Assembly: Guid("db86c177-2e77-43b6-86d4-9d647e4be3fc")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("1.0.0.1")>
+<Assembly: AssemblyFileVersion("1.0.0.1")>

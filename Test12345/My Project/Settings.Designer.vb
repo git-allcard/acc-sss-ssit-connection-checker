@@ -184,9 +184,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.SSIT_Checker.My.MySettings
+        Friend ReadOnly Property Settings() As Global.SSIT_CHECKER.My.MySettings
             Get
-                Return Global.SSIT_Checker.My.MySettings.Default
+                Return Global.SSIT_CHECKER.My.MySettings.Default
             End Get
         End Property
     End Module

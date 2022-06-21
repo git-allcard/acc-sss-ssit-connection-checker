@@ -2,27 +2,27 @@
 <doc>
 <assembly>
 <name>
-SSIT_Checker
+SET Kiosk Network Checker
 </name>
 </assembly>
 <members>
-<member name="T:SSIT_Checker.My.Resources.Resources">
+<member name="T:SSIT_CHECKER.My.Resources.Resources">
 <summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
-<member name="P:SSIT_Checker.My.Resources.Resources.ResourceManager">
+<member name="P:SSIT_CHECKER.My.Resources.Resources.ResourceManager">
 <summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
 </member>
-<member name="P:SSIT_Checker.My.Resources.Resources.Culture">
+<member name="P:SSIT_CHECKER.My.Resources.Resources.Culture">
 <summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="P:SSIT_Checker.My.Resources.Resources.logo">
+<member name="P:SSIT_CHECKER.My.Resources.Resources.logo">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

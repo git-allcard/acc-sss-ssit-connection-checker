@@ -1,0 +1,57 @@
+06/21/2022 09:01:08 PM 10.3.101.118,OFFLINE
+06/21/2022 09:01:38 PM 10.3.180.55,OFFLINE
+06/21/2022 09:01:47 PM 10.3.206.52,OFFLINE
+06/21/2022 09:01:59 PM 10.3.162.74,OFFLINE
+06/21/2022 09:02:03 PM 10.3.186.75,OFFLINE
+06/21/2022 09:02:07 PM 10.3.186.78,OFFLINE
+06/21/2022 09:02:11 PM 10.3.175.68,OFFLINE
+06/21/2022 09:02:15 PM 10.3.104.49,OFFLINE
+06/21/2022 09:02:19 PM 10.3.175.40,OFFLINE
+06/21/2022 09:14:24 PM 10.3.101.118,OFFLINE
+06/21/2022 09:14:28 PM 10.3.180.55,OFFLINE
+06/21/2022 09:14:32 PM 10.3.206.52,OFFLINE
+06/21/2022 09:15:20 PM 10.3.101.118,OFFLINE
+06/21/2022 09:15:24 PM 10.3.180.55,OFFLINE
+06/21/2022 09:15:28 PM 10.3.206.52,OFFLINE
+06/21/2022 09:15:32 PM 10.3.162.74,OFFLINE
+06/21/2022 09:15:36 PM 10.3.186.75,OFFLINE
+06/21/2022 09:15:40 PM 10.3.186.78,OFFLINE
+06/21/2022 09:15:44 PM 10.3.175.68,OFFLINE
+06/21/2022 09:15:48 PM 10.3.104.49,OFFLINE
+06/21/2022 09:15:52 PM 10.3.175.40,OFFLINE
+06/21/2022 09:15:56 PM 10.3.182.39,OFFLINE
+06/21/2022 09:16:55 PM 10.3.101.118,OFFLINE
+06/21/2022 09:17:35 PM 10.3.101.118,OFFLINE
+06/21/2022 09:19:21 PM 10.3.101.118,OFFLINE
+06/21/2022 09:19:25 PM 10.3.180.55,OFFLINE
+06/21/2022 09:19:29 PM 10.3.206.52,OFFLINE
+06/21/2022 09:19:33 PM 10.3.162.74,OFFLINE
+06/21/2022 09:19:37 PM 10.3.186.75,OFFLINE
+06/21/2022 09:19:41 PM 10.3.186.78,OFFLINE
+06/21/2022 09:23:34 PM 10.3.101.118,OFFLINE,Failed ping, Without existing offline record
+06/21/2022 09:23:38 PM 10.3.180.55,OFFLINE,Failed ping, With existing offline record
+06/21/2022 09:23:42 PM 10.3.206.52,OFFLINE,Failed ping, With existing offline record
+06/21/2022 09:23:46 PM 10.3.162.74,OFFLINE,Failed ping, Without existing offline record
+06/21/2022 09:23:50 PM 10.3.186.75,OFFLINE,Failed ping, Without existing offline record
+06/21/2022 09:23:54 PM 10.3.186.78,OFFLINE,Failed ping, Without existing offline record
+06/21/2022 09:23:58 PM 10.3.175.68,OFFLINE,Failed ping, Without existing offline record
+06/21/2022 09:24:02 PM 10.3.104.49,OFFLINE,Failed ping, Without existing offline record
+06/21/2022 09:24:30 PM 10.3.101.118,OFFLINE,Failed ping,Without existing offline record
+06/21/2022 09:24:34 PM 10.3.180.55,OFFLINE,Failed ping,With existing offline record
+06/21/2022 09:24:38 PM 10.3.206.52,OFFLINE,Failed ping,With existing offline record
+06/21/2022 09:24:42 PM 10.3.162.74,OFFLINE,Failed ping,Without existing offline record
+06/21/2022 09:24:46 PM 10.3.186.75,OFFLINE,Failed ping,Without existing offline record
+06/21/2022 09:24:50 PM 10.3.186.78,OFFLINE,Failed ping,Without existing offline record
+06/21/2022 09:24:54 PM 10.3.175.68,OFFLINE,Failed ping,Without existing offline record
+06/21/2022 09:24:58 PM 10.3.104.49,OFFLINE,Failed ping,Without existing offline record
+06/21/2022 09:29:23 PM 10.3.101.118,OFFLINE,Failed ping,Inserted new offline record
+06/21/2022 09:29:27 PM 10.3.180.55,OFFLINE,Failed ping,With existing offline record
+06/21/2022 09:29:31 PM 10.3.206.52,OFFLINE,Failed ping,With existing offline record
+06/21/2022 09:29:35 PM 10.3.162.74,OFFLINE,Failed ping,Inserted new offline record
+06/21/2022 09:29:39 PM 10.3.186.75,OFFLINE,Failed ping,Inserted new offline record
+06/21/2022 09:29:43 PM 10.3.186.78,OFFLINE,Failed ping,Inserted new offline record
+06/21/2022 09:29:47 PM 10.3.175.68,OFFLINE,Failed ping,Inserted new offline record
+06/21/2022 09:29:51 PM 10.3.104.49,OFFLINE,Failed ping,Inserted new offline record
+06/21/2022 09:29:55 PM 10.3.175.40,OFFLINE,Failed ping,Inserted new offline record
+06/21/2022 09:29:59 PM 10.3.182.39,OFFLINE,Failed ping,Inserted new offline record
+06/21/2022 09:30:03 PM 10.3.192.52,OFFLINE,Failed ping,With existing offline record

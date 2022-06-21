@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.SSIT_Checker.SSIT_Checker
+            Me.MainForm = Global.SSIT_CHECKER.SSIT_Checker
         End Sub
     End Class
 End Namespace

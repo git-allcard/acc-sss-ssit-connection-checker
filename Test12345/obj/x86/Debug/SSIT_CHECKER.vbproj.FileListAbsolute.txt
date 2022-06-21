@@ -26,3 +26,18 @@ D:\WORK\SSS\SSIT DOCUMENTS\SSIT FINAL PRODUCT VERSIONS\SSIT CONNECTION CHECKER\T
 D:\WORK\SSS\SSIT DOCUMENTS\SSIT FINAL PRODUCT VERSIONS\SSIT CONNECTION CHECKER\Test12345\Test12345\bin\Debug\SSIT_Checker.xml
 D:\WORK\SSS\SSIT DOCUMENTS\SSIT FINAL PRODUCT VERSIONS\SSIT CONNECTION CHECKER\Test12345\Test12345\bin\Debug\Newtonsoft.Json.dll
 D:\WORK\SSS\SSIT DOCUMENTS\SSIT FINAL PRODUCT VERSIONS\SSIT CONNECTION CHECKER\Test12345\Test12345\bin\Debug\Newtonsoft.Json.xml
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SSIT_CHECKER.vbproj.GenerateResource.cache
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SSIT_CHECKER.vbproj.CoreCompileInputs.cache
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\bin\Debug\Newtonsoft.Json.dll
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\bin\Debug\Newtonsoft.Json.xml
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SSIT_CHECKER.vbproj.CopyComplete
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SSIT_CHECKER.frmSettings.resources
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SSIT_CHECKER.SSIT_Checker.resources
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SSIT_CHECKER.Resources.resources
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\bin\Debug\SET Kiosk Network Checker.exe.config
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\bin\Debug\SET Kiosk Network Checker.exe
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\bin\Debug\SET Kiosk Network Checker.pdb
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\bin\Debug\SET Kiosk Network Checker.xml
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SET Kiosk Network Checker.exe
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SET Kiosk Network Checker.xml
+C:\EDEL\Projects\acc-sss-ssit-connection-checker\Test12345\obj\x86\Debug\SET Kiosk Network Checker.pdb
